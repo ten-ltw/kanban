@@ -91,7 +91,7 @@ Since you are not signed in, your changes will not persist after you leave the w
     lists: [
       {
         _id: shortid.generate(),
-        title: "Welcome to React Kanban!",
+        title: "Welcome to Kanban!",
         cards: appendAttributes(list1)
       },
       {

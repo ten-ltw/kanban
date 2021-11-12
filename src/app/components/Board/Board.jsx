@@ -136,7 +136,7 @@ class Board extends Component {
     return (
       <>
         <div className={classnames("board", boardColor)}>
-          <Title>{boardTitle} | React Kanban</Title>
+          <Title>{boardTitle} | Kanban</Title>
           <Header />
           <BoardHeader />
           {/* eslint-disable jsx-a11y/no-static-element-interactions */}

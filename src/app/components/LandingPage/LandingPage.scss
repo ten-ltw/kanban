@@ -61,6 +61,7 @@
   margin: 10px 0;
   font-size: 18px;
   font-weight: 700;
+
   a {
     color: white;
   }
@@ -69,7 +70,7 @@
 .signin-buttons {
   display: flex;
   justify-content: space-between;
-  width: 650px;
+  width: 430px;
 }
 
 .signin-button {
@@ -100,13 +101,13 @@
   }
 }
 
-.google-button {
+.github-button {
   background: white;
   color: $black-text;
 }
 
-.google-button:hover,
-.google-button:focus {
+.github-button:hover,
+.github-button:focus {
   background: #ddd;
 }
 
@@ -114,7 +115,7 @@
   font-size: 30px;
 }
 
-.google-logo {
+.github-logo {
   height: 30px;
 }
 
@@ -157,6 +158,7 @@
     align-items: center;
     width: auto;
   }
+
   .signin-button {
     width: 320px;
   }
