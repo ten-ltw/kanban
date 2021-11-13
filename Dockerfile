@@ -13,6 +13,6 @@ RUN apt update \
 WORKDIR /app
 COPY . .
 RUN npm i \
-    && npm run build:prod \
-    && npm run serve:prod
+    && npm run build:prod
 EXPOSE 1337
+CMD [ "npm", "run", "serve:prod" ]
