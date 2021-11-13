@@ -40,3 +40,9 @@ For production deployment run:
 npm run build:prod
 npm run serve:prod
 ```
+
+
+```
+docker build -t=ten/kanban .
+docker run --restart=always --name kanban -d -p 1337:1337 ten/kanban
+```
