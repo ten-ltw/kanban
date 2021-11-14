@@ -30,6 +30,11 @@
   font-size: 28px;
   transition: background 0.1s;
   cursor: pointer;
+
+  >div {
+    height: 100%;
+    line-height: 33px;
+  }
 }
 
 .add-card-button:hover,

@@ -127,7 +127,7 @@ class CardOptions extends Component {
                 onKeyDown={this.handleKeyDown}
               >
                 {/* eslint-enable */}
-                {["white", "#6df", "#6f6", "#ff6", "#fa4", "#f66"].map(
+                {["white", "#D8E1E7", "#C9C9C9", "#EFC870", "#F76363", "#428885"].map(
                   color => (
                     <button
                       key={color}
