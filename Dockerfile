@@ -1,4 +1,4 @@
-FROM node:14.16.0
+FROM node:11.14.0
 
 # This timezone setting should be updated
 ENV TZ=Asia/Shanghai \
