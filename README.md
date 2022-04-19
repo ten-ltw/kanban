@@ -48,4 +48,4 @@ docker run --restart=always --name kanban -d -p 1337:1337 ten/kanban
 ```
 
 node-gyp
-node 11
+mongodb 4.4
